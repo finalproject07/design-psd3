@@ -1,0 +1,317 @@
+*{
+    font-family: 'roboto',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-item{
+    text-align: center;
+}
+.showvideo>p{
+    padding-top: 1.6rem;
+}
+.img-fluid{
+        width: inherit;
+    }
+.main{
+    background: url("../images/bg1.png") center;
+    background-size: cover;
+    padding-bottom: 3rem;
+}
+.navbar{
+    width: 95%;
+    margin: auto;
+}
+.maintext{
+    font-size: 5rem;
+    color: #fff;
+    font-weight: bolder;
+}
+.mainpara{
+    font-size: .9rem;
+    width: 25%;
+    margin: auto;
+    opacity: .5;
+    padding-bottom: 18rem;
+}
+.slider{
+    display: block;
+    margin: auto;
+}
+.scroll{
+    color: #fff;
+}
+.red{
+    color: #ed322d;
+}
+.fa-bars{
+    color: rgba(255, 255, 255, .5);
+    border-style: none;
+}
+.showright{
+    width: 85%;
+}
+.right{
+    background-color: #f8f8f8;
+}
+h2.showcase{
+    font-size: 3rem;
+}
+.process{
+    padding: 6rem 0;
+}
+.meeting,.planning,.execute,.deliver{
+    border-radius: 50%;
+    z-index: 1;
+    opacity: .7;
+    display: inline-block;
+    transform: scale(1.1);
+    position: relative;
+    vertical-align: middle;
+}
+.meeting>div, .deliver>div{
+    transform: translateY(63px);
+}
+.planning>div{
+    transform: translateY(75px);
+}
+.execute>div{
+    transform: translateY(100px);
+}
+.meeting{
+    height: 150px;
+    width: 150px;
+    background-color: #f1757b;
+}
+.planning{
+    height: 200px;
+    width: 200px;
+    background-color: #77cfc7;
+}
+.execute{
+    height: 225px;
+    width: 225px;
+    background-color: #6dd5ed;
+}
+.deliver{
+    height: 150px;
+    width: 150px;
+    background-color: #f6ce42;
+}
+h1.ptitle{
+    font-size: 3rem;
+}
+p.ptitle{
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+.terms{
+    background: url(../images/bg2.png) center;
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 8rem;
+}
+.servicestext{
+    width: 60%;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.arr{
+    font-size: 1.5rem;
+}
+.arrowbox{
+    width: 90%;
+    margin: auto;
+}
+.arrow{
+    background-color: #802c64;
+    opacity: .5;
+}
+.arrow-2{
+    background-color: #500c50;
+    opacity: .5;
+}
+.arrow-3{
+    background-color: #3a0c3a;
+    opacity: .5;
+}
+h5.box-text{
+    font-size: 1rem;
+}
+p.box-text{
+    font-size: .8rem;
+    width: 70%;
+}
+.box-1{
+    background-color: #7a225d;
+    opacity: .7;
+    text-align: left;
+    padding-left: 40px;
+}
+.box-2{
+    background-color: #480048;
+    opacity: .7;
+    text-align: left;
+    padding-left: 40px;
+}
+.box-3{
+    background-color: #300030;
+    opacity: .7;
+    text-align: left;
+    padding-left: 40px;
+}
+.last{
+    background: url(../images/bg3.png) center;
+    background-size: cover;
+}
+.anveshan{
+    margin-top: -5%;
+}
+.lasthead{
+    color: #404040;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+.lasttext{
+    font-size: 1.5rem;
+    width: 40%;
+    margin: auto;
+    font-weight: 100;
+}
+.form{
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+}
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none !important;
+    border-bottom: 2px solid #ebebeb !important;
+}
+input:focus{
+    border-style: none none solid none !important;
+}
+.submit{
+    padding: .5rem 2rem;
+    background-color: transparent;
+    border-color: #878787;
+}
+.fields{
+    width: 60%;
+    margin: auto;
+}
+.sqicons i{
+    background-color: transparent;
+    color: #8a8a8a;
+    height: 50px;
+    width: 50px;
+    border: #8a8a8a 1px solid;
+    margin: 0 5px;
+    padding: 8px;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) and (min-width: 577px){
+    .meeting, .deliver{
+    height: 125px;
+    width: 125px;
+    }
+    .maintext>h1{
+        font-size: 30px;
+    }
+    .mainpara{
+        padding-bottom: 16rem;
+        font-size: 1rem;
+        width: 75%;
+    }
+    h2.showcase, h1.ptitle, .terms>h1, .last>h2{
+        font-size: 2rem;
+    }
+    .fields, .form{
+        width: 80%;
+    }
+    .anveshan{
+        margin-top: -12%;
+    }
+    .planning{
+    height: 175px;
+    width: 175px;
+    }
+    .execute{
+    height: 200px;
+    width: 200px;
+    }
+    .circles>p{
+        font-size: 14px;
+    }
+    .last>p, .terms>p{
+        width: 70%;
+        font-size: 1rem;
+    }
+    .meeting>div, .deliver>div{
+        transform: translateY(55px);
+    }
+    .planning>div{
+        transform: translateY(67px);
+    }
+    .execute>div{
+        transform: translateY(90px);
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .maintext>h1{
+        font-size: 20px;
+    }
+    .mainpara{
+        width: 75%;
+        padding-bottom: 12rem;
+    }
+    .scroll{
+        font-size: 12px;
+    }
+    h2.showcase, h1.ptitle, .terms>h1, .last>h2{
+        font-size: 2rem;
+    }
+    .showvideo>p{
+        clear: left;
+    }
+    p.ptitle{
+        font-size: 1rem;
+    }
+    .meeting,.planning,.execute,.deliver{
+        display: block;
+        margin: 0 auto;
+    }
+    .terms>p{
+        font-size: 1rem;
+        width:90%;
+        margin: auto;
+    }
+    .anveshan{
+        margin-top: -24%;
+        height: 150px;
+        width: 150px;
+    }
+    .last>p{
+        width: 90%;
+        font-size: 1rem;
+    }
+    .form{
+        width: 100%;
+    }
+    .fields{
+        width: 95%;
+    }
+}
+@media only screen and (min-width: 2560px){
+    .anveshan{
+        margin-top: -3.5%;
+    }
+}
+@media only screen and (max-width: 1025px){
+    .anveshan{
+        margin-top: -9%;
+    }
+}
